@@ -1,0 +1,78 @@
+<section class="section-page-content">
+  <div class="container">
+    <div class="row">
+ 
+      <div id="primary" class="col-md-8">
+        <div class="stage-name">
+          <h3>{{event?._embedded?.venues[0].name}}</h3>
+          <p>{{event?._embedded?.venues[0].city?.name}}, {{event?._embedded?.venues[0].state?.name}} <br> <span>Concert Seating</span></p>
+        </div>
+        
+        
+      </div>
+
+      <div id="secondary" class="col-md-4">
+        <div class="ticket-price">
+          <div class="tickets">
+            <label>How many tickets?</label>
+            <input type="text" id="ticketNo" name="ticketNo" [(ngModel)]="ticketNo" required>
+            
+            <label>Price</label>
+            <input type="text" [(ngModel)]="price" required>
+            <!-- <input id="price-range" type="text" class="span2" value="" data-slider-min="10" data-slider-max="200" data-slider-step="5" data-slider-value="[50,150]"/>  -->
+          </div>
+          <table class="table table-hover">
+            <thead>
+              <tr>
+                <th>Section</th>
+                <th>Row</th>
+                <th>Price</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="select-seat">
+                <td>A3-Middle <span>2 Tickets left</span></td>
+                <td>5</td>
+                <td>$65 <span>Per seat</span></td>
+              </tr>
+              <tr class="select-seat">
+                <td>C1-Left <span>4 Tickets left</span></td>
+                <td>4</td>
+                <td>$67 <span>Per seat</span></td>
+              </tr>
+              <tr class="select-seat">
+                <td>C2-Left <span>14 Tickets left</span></td>
+                <td>2</td>
+                <td>$76 <span>Per seat</span></td>
+              </tr>
+              <tr class="select-seat">
+                <td>C5-Right <span>1 Ticket left</span></td>
+                <td>5</td>
+                <td>$58 <span>Per seat</span></td>
+              </tr>
+              <tr class="select-seat">
+                <td>C6-Right <span>1 Ticket left</span></td>
+                <td>5</td>
+                <td>$59 <span>Per seat</span></td>
+              </tr>
+              <tr class="select-seat">
+                <td>B1-Left <span>10 Ticket left</span></td>
+                <td>1</td>
+                <td>$58 <span>Per seat</span></td>
+              </tr>
+              <tr class="select-seat">
+                <td>B6-Right <span>12 Ticket left</span></td>
+                <td>5</td>
+                <td>$70 <span>Per seat</span></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+    </div>
+    <div class="row">
+        <button type="button" (click)="onKeyDown(event)">Add to Cart</button>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,220 @@
+.section-page-content{
+	padding:70px 0; 
+	background:#fff
+}
+
+.stage-name{
+	margin:0 0 55px;
+	text-align:center
+}
+
+.stage-name h3{
+	margin:0 0 20px;
+	display:inline-block;
+	text-align:center;
+	padding:10px 30px;
+	border-radius:15px;
+	font-size:16px;
+	color:#ff6600;
+	border:1px solid #ff6600;
+	font-family: "Montserrat-Light";
+	
+}
+
+.stage-name p{
+	text-align:center;
+	color:#6f6f6f;
+	font-size:14px;
+	font-family: "Montserrat-Regular";
+}
+
+.stage-name p span{
+	display:block;
+	font-family: "Montserrat-Light";
+}
+
+
+
+.ticket-price .bootstrap-select{
+	width:100%!important;
+	margin:0 0 20px;
+}
+
+.ticket-price .bootstrap-select > .btn{
+	background:#fff!important;
+	color:#6f6f6f;
+	font-family: "Montserrat-Regular";
+	font-weight:400;
+	font-size:14px;
+}
+
+.slider .tooltip {
+    margin-top: -7px!important;
+	font-size:11px;
+	opacity:1;
+	font-family: "Montserrat-Light";
+	width:53px;
+	height:26px;
+	cursor:default;
+	top:0!important;
+	z-index:1
+}
+
+.tooltip-inner{
+	border-radius:20px;
+	color:#f8f8f8;
+	background:#f89406;
+	opacity:1!important;
+	border:2px solid #fff;
+}
+
+.slider-track-low, 
+.slider-track-high{
+	background:#dedede
+}
+
+.slider.slider-horizontal{
+	width:100%;
+}
+
+.slider-selection{
+	background:#f89406;
+	box-shadow:none;
+}
+
+.tooltip .tooltip-arrow{
+	display:none!important
+}
+
+
+
+.tickets label{
+	display:block;
+	color:#6f6f6f;
+	margin:0 0 20px;
+	font-weight:normal;
+}
+
+.tickets{
+	background:#fafafa;
+	border-top:1px solid #cecece;
+	border-left:1px solid #cecece;
+	border-right:1px solid #cecece;
+	padding:30px;
+}
+
+.tickets select{
+	display:block;
+	margin:0 0 20px;
+	width:100%;
+	font-family: "Montserrat-Light";
+	padding:10px 30px;
+	color:#6f6f6f
+}
+
+.ticket-price table, 
+.ticket-price th, 
+.ticket-price td{
+	border:none
+}
+
+.ticket-price table tr td{
+	color:#6f6f6f;
+	font-size:15px;
+	font-family: "Montserrat-Light";
+}
+
+.ticket-price table tr td span{
+	display:block;
+	color:#b3b3b3;
+	font-size:14px;
+	font-family: "Montserrat-Light";
+}
+
+.ticket-price .table > tbody > tr > td{
+	padding:30px
+}
+
+.ticket-price .table {
+	border:1px solid #cecece;
+	margin:0;
+}
+
+.ticket-price .table > tbody > tr{
+	position:relative
+}
+
+.ticket-price .table > tbody > tr.selected:before{
+	content: "";
+	width:10px;
+	background:#ff6600;
+	position:absolute;
+	left:0;
+	bottom:0;
+	top:0;
+}
+
+.ticket-price .table > tbody{
+	overflow-y:scroll;
+	height:409px;
+	display:block;
+}
+
+.ticket-price .table > tbody > tr:hover{
+	cursor:pointer
+}
+
+.ticket-price .table > thead > tr > th{
+	border:none;
+	background:#fafafb;
+	color:#6f6f70;
+	font-size:15px;
+	font-family: "Montserrat-Light";
+	padding:10px 20px;
+	font-weight:normal;
+}
+
+.ticket-price .table{
+	width:100%;
+}
+
+.ticket-price tr,
+.ticket-price td{
+	display:block;
+	overflow:hidden;
+}
+
+.ticket-price th,
+.ticket-price td{
+	float:left;
+	width:45%;
+}
+
+.ticket-price th:nth-child(2),
+.ticket-price td:nth-child(2){
+	float:left;
+	width:20%;
+}
+
+.ticket-price th:nth-child(3),
+.ticket-price td:nth-child(3){
+	float:left;
+	width:35%;
+}
+.primary-link{
+	display:block;
+	font-size:16px;
+	color:#fff;
+	border:1px solid #ff6600;
+	background:#ff6600;
+	border-radius:50px;
+	text-align:center;
+	padding:20px;
+	font-family: "Montserrat-Regular";
+	text-transform:uppercase;
+}
+
+.primary-link:hover{
+	color:#ff6600;
+	background:#fff;
+}

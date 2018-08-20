@@ -1,0 +1,233 @@
+.section-page-content{
+	padding:70px 0; 
+	background:#fff
+}
+.section-order-details-content{
+	padding:70px 0;
+	background:#fff
+}
+
+.section-order-details-event-title .event-caption{
+	display:block;
+	color:#373737;
+	font-size:16px;
+	font-family: "Montserrat-Regular";
+	text-transform:uppercase;
+	margin:0 0 20px
+}
+
+.section-order-details-event-title .event-title{
+	display:block;
+	color:#373737;
+	font-size:28px;
+	font-family: "Montserrat-Light";
+	text-transform:uppercase;
+	margin:0 0 35px
+}
+
+.section-order-details-event-title .event-title strong{
+	font-family: "Montserrat-Bold";
+}
+
+.primary-link{
+	display:block;
+	font-size:16px;
+	color:#fff;
+	border:1px solid #ff6600;
+	background:#ff6600;
+	border-radius:50px;
+	text-align:center;
+	padding:20px;
+	font-family: "Montserrat-Regular";
+	text-transform:uppercase;
+}
+
+.primary-link:hover{
+	color:#ff6600;
+	background:#fff;
+}
+.secondary-link{
+	display:block;
+	font-size:16px;
+	border:1px solid #ff6600;
+	color:#ff6600;
+	background:#fff;
+	border-radius:50px;
+	text-align:center;
+	padding:20px;
+	font-family: "Montserrat-Regular";
+	text-transform:uppercase;
+}
+
+
+.secondary-link:hover{
+	color:#fff;
+	background:#ff6600;
+	border:1px solid #fff;
+}
+
+.section-order-details-event-title img{
+	display:block;
+	max-width:100%;
+	height:auto;
+	margin:0 auto;
+	border-radius:5px;
+}
+
+.section-order-details-event-info .venue-details h3,
+.section-order-details-event-info .seat-details h3{
+	color:#373737;
+	font-size:20px;
+	font-family: "Montserrat-Regular";
+	margin:0 0 25px;
+}
+
+.section-order-details-event-info .venue-details-info{
+	padding:20px 30px;
+	border-right:1px solid #b3b3b3;
+	border-top:1px solid #b3b3b3;
+	border-bottom:1px solid #b3b3b3;
+	border-left:3px solid #ff6600;
+	border-radius:5px;
+	margin:0 0 40px
+}
+
+.section-order-details-event-info .venue-details-info p{
+	margin:0 0 10px;
+	color:#ff6600;
+	font-family: "Montserrat-Regular";
+	font-size:18px;
+	line-height:normal;
+}
+
+.section-order-details-event-info .venue-details-info p span{
+	font-family: "Montserrat-Light";
+}
+
+.section-order-details-event-info .venue-details-info p:last-child{
+	margin:0;
+}
+
+.section-order-details-event-title{
+	padding:0 20px 0 0;
+}
+
+.section-order-details-event-info{
+	margin:0 0 70px;
+}
+
+.section-order-details-event-info .seat-details-info{
+	padding:20px 30px;
+	border-right:1px solid #b3b3b3;
+	border-top:1px solid #b3b3b3;
+	border-bottom:1px solid #b3b3b3;
+	border-left:3px solid #4e4e4e;
+	border-top-left-radius:5px;
+	border-top-right-radius:5px;
+}
+
+.seat-details-info .table,
+.seat-details-info .table td,
+.seat-details-info .table tr,
+.seat-details-info .table th,
+.seat-details-info-price .table,
+.seat-details-info-price .table td,
+.seat-details-info-price .table tr,
+.seat-details-info-price .table th{
+	border:none;
+}
+
+.seat-details-info .table th{
+	color:#6f6f6f;
+	font-size:16px;
+	line-height:normal;
+	text-transform:uppercase;
+	padding:0 0 10px;
+	font-family: "Montserrat-Regular";
+	font-weight:normal;
+}
+
+.seat-details-info .table td{
+	color:#6f6f6f;
+	font-size:16px;
+	text-transform:uppercase;
+	padding:0 0 5px;
+	font-family: "Montserrat-Light";
+}
+
+.seat-details-info .table.seat-row th:nth-child(2),
+.seat-details-info .table.seat-row th:nth-child(3),
+.seat-details-info .table.seat-row td:nth-child(2),
+.seat-details-info .table.seat-row td:nth-child(3){
+	text-align:center;
+}
+
+.seat-details-info .table.number-tickets input[type="text"]{
+	width:52px;
+	height:22px;
+	border:none;
+	font-size:16px;
+	color:#6f6f6f;
+	font-family: "Montserrat-Light";
+	text-align:center;
+}
+
+.seat-details-info .table.number-tickets .qty-input,
+.seat-details-info .table.number-tickets .qty-minus,
+.seat-details-info .table.number-tickets .qty-plus{
+	display:inline-block;
+}
+
+.seat-details-info .table.number-tickets .qty-btn{
+	width:22px;
+	height:22px;
+	text-align:center;
+	font-size:13px;
+	line-height:18px;
+	border:1px solid #b3b3b3;
+	color:#6f6f6f;
+	border-radius:50px;
+	cursor:pointer;
+	display:inline-block;
+	padding:0;
+	background:none;
+}
+
+.seat-details-info .table.number-tickets .qty-btn:hover{
+	border:1px solid #ff6600;
+	color:#ff6600
+}
+
+.seat-details-info .table.seat-row{
+	margin:0 0 50px;
+}
+
+.seat-details-info-price{
+	padding:20px 30px;
+	border-right:1px solid #b3b3b3;
+	border-top:none;
+	border-bottom:1px solid #b3b3b3;
+	border-left:1px solid #b3b3b3;
+	border-bottom-left-radius:5px;
+	border-bottom-right-radius:5px;
+	background:#f8f8f8
+}
+
+.seat-details-info-price .table{
+	margin:0;
+}
+
+.seat-details-info-price .table td{
+	color:#6f6f6f;
+	font-size:16px;
+	font-family: "Montserrat-Regular";
+	text-transform:uppercase;
+	padding:0;
+	vertical-align:middle
+}
+
+.seat-details-info-price .table td.price{
+	font-size:26px;
+	color:#ff6600;
+	text-align:center;
+}

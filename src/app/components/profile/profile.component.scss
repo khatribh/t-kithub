@@ -1,0 +1,51 @@
+// Imports
+@import "../../../sass/_variables.scss";
+@import "../../../sass/_mixins.scss";
+@import "../../../sass/_extend.scss";
+
+.profile-page {
+    padding: 40px 0;
+    h2 {
+        margin-bottom: 30px;
+    }
+    input {
+        margin-bottom: 15px;
+    }
+    .help-block {
+        position: $absolute;
+        color: $red;
+        bottom: -5px;
+    }
+    h3 {
+        color: $white;
+        margin-bottom: 20px;
+    }    
+    .order-list {
+        margin-bottom: 10px;
+        border-bottom: 2px solid $white;
+        padding: 10px 0;
+        &:last-child {
+            border-bottom: 0;
+        }
+    }
+    .order, .information {
+        h5, h6 {
+            color: $white;
+        }
+        p {
+            color: $link-orange;
+            margin-bottom: 10px;
+            font-size: 16px;
+            line-height: 22px;
+        }
+    }
+    .download {
+        margin-top: 10px;
+        a {
+            @extend %submitButton;
+            &:hover {
+                text-decoration: none;
+            }
+        }
+    }
+}

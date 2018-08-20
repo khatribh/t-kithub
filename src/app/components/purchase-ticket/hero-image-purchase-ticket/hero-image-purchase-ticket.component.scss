@@ -1,0 +1,49 @@
+
+.section-select-seat-2-featured-header{
+	min-height:322px;
+	background: url(../../../../assets/images/purchase-ticket.jpg) no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	position:relative;
+}
+
+.section-select-seat-2-featured-header:before{
+	content: "";
+	// background: url(../../../../assets/images/purchase-ticket.jpg);
+	position:absolute;
+	top:0;
+	bottom:0;
+	right:0;
+	left:0;
+}
+
+.section-select-seat-2-featured-header .section-content{
+	text-align:center;
+	position:relative;
+	padding:80px 0;
+}
+
+.section-select-seat-2-featured-header .section-content p{
+	color:#fff;
+	font-size:20px;
+	margin:0;
+}
+
+.section-select-seat-2-featured-header .section-content p strong{
+	font-size:40px;
+	line-height:40px;
+	display:block;
+	font-family: "Montserrat-Bold";
+	margin:5px 0 0;
+	color:#fff;
+}
+
+.section-select-seat-2-featured-header .section-content p span{
+	font-size:20px;
+	line-height:20px;
+	display:block;
+	font-family: "Montserrat-Light";
+	margin:15px 0 0;
+}
